@@ -1,0 +1,6 @@
+useradd -n username -i userid -c comment -p password
+userdel username
+usermod username -n new_username
+usermod username -c new_comment
+usermod username -i new_userid
+usermod username -p old_password new_password
