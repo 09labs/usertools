@@ -1,6 +1,6 @@
 ROOTDIR = $(shell pwd)
 #INSTALL_DIR = $(ROOTDIR)/bin
-#CROSS_COMPILE = armv6-aspeed-linux-gnueabi-
+CROSS_COMPILE = armv6-aspeed-linux-gnueabi-
 CC              = $(CROSS_COMPILE)gcc
 INCLUDE         = 
 OBJS            =
